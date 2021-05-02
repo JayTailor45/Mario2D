@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06f41520-ed2c-4191-b295-b866c5d9b673" name="Default Changelist" comment="Add helpful links to README">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jade/KeyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jade/MouseListener.java" afterDir="false" />
+    <list default="true" id="06f41520-ed2c-4191-b295-b866c5d9b673" name="Default Changelist" comment="Setup key and mouse event listeners">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jade/LevelScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jade/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
     </list>
@@ -99,7 +101,7 @@
       <workItem from="1619710662255" duration="1414000" />
       <workItem from="1619712667421" duration="50000" />
       <workItem from="1619713155822" duration="4389000" />
-      <workItem from="1619932950004" duration="4773000" />
+      <workItem from="1619932950004" duration="7450000" />
     </task>
     <task id="LOCAL-00001" summary="Add helpful links to README">
       <created>1619718921893</created>
@@ -108,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619718921893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setup key and mouse event listeners">
+      <created>1619941238811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619941238811</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add helpful links to README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add helpful links to README" />
+    <MESSAGE value="Setup key and mouse event listeners" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup key and mouse event listeners" />
   </component>
 </project>
