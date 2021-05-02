@@ -36,9 +36,11 @@ public class Window {
         switch (newScene) {
             case 0:
                 currentScene = new LevelEditorScene();
+                currentScene.init();
                 break;
             case 1:
                 currentScene = new LevelScene();
+                currentScene.init();
                 break;
             default:
                 assert false: "Unknown scene : ' " + newScene + " '";
@@ -78,6 +80,9 @@ public class Window {
 
         // Configure GLFW
         glfwDefaultWindowHints();
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // MacOS specific code to work shaders properly
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2); // MacOS specific code to work shaders properly
+        glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // MacOS specific code to work shaders properly
         glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
         glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
         glfwWindowHint(GLFW_MAXIMIZED, GLFW_TRUE);
