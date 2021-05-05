@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06f41520-ed2c-4191-b295-b866c5d9b673" name="Default Changelist" comment="Add basic scene manager to switch between screens">
-      <change afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
+    <list default="true" id="06f41520-ed2c-4191-b295-b866c5d9b673" name="Default Changelist" comment="Render rectangle with OpenGL graphics rendering pipeline">
+      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +98,8 @@
       <workItem from="1619712667421" duration="50000" />
       <workItem from="1619713155822" duration="4389000" />
       <workItem from="1619932950004" duration="8424000" />
-      <workItem from="1619958961287" duration="4936000" />
+      <workItem from="1619958961287" duration="5434000" />
+      <workItem from="1620179843126" duration="5229000" />
     </task>
     <task id="LOCAL-00001" summary="Add helpful links to README">
       <created>1619718921893</created>
@@ -109,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619944257054</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Render rectangle with OpenGL graphics rendering pipeline">
+      <created>1619964288035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619964288035</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +151,7 @@
     <MESSAGE value="Add helpful links to README" />
     <MESSAGE value="Setup key and mouse event listeners" />
     <MESSAGE value="Add basic scene manager to switch between screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add basic scene manager to switch between screens" />
+    <MESSAGE value="Render rectangle with OpenGL graphics rendering pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Render rectangle with OpenGL graphics rendering pipeline" />
   </component>
 </project>
