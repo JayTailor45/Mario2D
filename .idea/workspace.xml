@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06f41520-ed2c-4191-b295-b866c5d9b673" name="Default Changelist" comment="Render rectangle with OpenGL graphics rendering pipeline">
-      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
+    <list default="true" id="06f41520-ed2c-4191-b295-b866c5d9b673" name="Default Changelist" comment="Shader abstraction">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jade/Camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shaders/default.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +101,10 @@
       <workItem from="1619713155822" duration="4389000" />
       <workItem from="1619932950004" duration="8424000" />
       <workItem from="1619958961287" duration="5434000" />
-      <workItem from="1620179843126" duration="5229000" />
+      <workItem from="1620179843126" duration="5323000" />
+      <workItem from="1620228556747" duration="572000" />
+      <workItem from="1620482250172" duration="184000" />
+      <workItem from="1620541570901" duration="3069000" />
     </task>
     <task id="LOCAL-00001" summary="Add helpful links to README">
       <created>1619718921893</created>
@@ -129,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619964288035</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Shader abstraction">
+      <created>1620187129831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620187129831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +164,7 @@
     <MESSAGE value="Setup key and mouse event listeners" />
     <MESSAGE value="Add basic scene manager to switch between screens" />
     <MESSAGE value="Render rectangle with OpenGL graphics rendering pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Render rectangle with OpenGL graphics rendering pipeline" />
+    <MESSAGE value="Shader abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shader abstraction" />
   </component>
 </project>
