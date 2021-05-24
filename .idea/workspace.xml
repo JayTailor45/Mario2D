@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06f41520-ed2c-4191-b295-b866c5d9b673" name="Default Changelist" comment="Shader abstraction">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jade/Camera.java" afterDir="false" />
+    <list default="true" id="06f41520-ed2c-4191-b295-b866c5d9b673" name="Default Changelist" comment="Add Camera to the scene">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/shaders/default.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,19 +67,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -104,7 +89,15 @@
       <workItem from="1620179843126" duration="5323000" />
       <workItem from="1620228556747" duration="572000" />
       <workItem from="1620482250172" duration="184000" />
-      <workItem from="1620541570901" duration="3069000" />
+      <workItem from="1620541570901" duration="3876000" />
+      <workItem from="1620914978696" duration="139000" />
+      <workItem from="1620915532382" duration="59000" />
+      <workItem from="1620915834841" duration="4000" />
+      <workItem from="1620999772573" duration="106000" />
+      <workItem from="1620999966293" duration="302000" />
+      <workItem from="1621868750235" duration="186000" />
+      <workItem from="1621869259173" duration="119000" />
+      <workItem from="1621869855286" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="Add helpful links to README">
       <created>1619718921893</created>
@@ -141,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620187129831</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Camera to the scene">
+      <created>1620547183487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620547183487</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +165,7 @@
     <MESSAGE value="Add basic scene manager to switch between screens" />
     <MESSAGE value="Render rectangle with OpenGL graphics rendering pipeline" />
     <MESSAGE value="Shader abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shader abstraction" />
+    <MESSAGE value="Add Camera to the scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Camera to the scene" />
   </component>
 </project>
